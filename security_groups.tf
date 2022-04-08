@@ -1,4 +1,4 @@
-resource "aws_security_groups" "allow_ssh" {
+resource "aws_security_group" "allow_ssh" {
   name        = "allow ssh"
   description = "allow ssh inbound traffic"
   vpc_id      = module.vpc.vpc_id
