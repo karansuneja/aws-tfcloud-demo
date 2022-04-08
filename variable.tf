@@ -14,3 +14,7 @@ variable "key-name" {
   type    = string
   default = "AWS Ubuntu"
 }
+variable "instance_type" {
+  type    = string
+  default = "t2.micro"
+}
